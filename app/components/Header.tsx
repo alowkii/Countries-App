@@ -8,6 +8,7 @@ export default function Header() {
             </div>
             <nav>
                 <ul>
+                    <li><NavLink to={"/"}>Home</NavLink></li>
                     <li><NavLink to={"/countries"}>Countries</NavLink></li>
                     <li><NavLink to={"/about"}>About</NavLink></li>
                 </ul>
